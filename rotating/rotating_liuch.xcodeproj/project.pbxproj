@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B91C76E7215498BA004F33FB /* rotating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91C76E7215498BA004F33FB /* rotating_liuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotating_liuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91C76EA215498BA004F33FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B91C76EB215498BA004F33FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B91C76ED215498BA004F33FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		B91C76F6215498BE004F33FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91C76F8215498BE004F33FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91C76F9215498BE004F33FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B91C76FF215498BE004F33FB /* rotatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91C76FF215498BE004F33FB /* rotating_liuchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotating_liuchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91C7703215498BE004F33FB /* rotatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotatingTests.m; sourceTree = "<group>"; };
 		B91C7705215498BE004F33FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B91C770A215498BE004F33FB /* rotatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91C770A215498BE004F33FB /* rotating_liuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rotating_liuchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91C770E215498BE004F33FB /* rotatingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rotatingUITests.m; sourceTree = "<group>"; };
 		B91C7710215498BE004F33FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91C772221549962004F33FB /* twoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		B91C76E8215498BA004F33FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B91C76E7215498BA004F33FB /* rotating.app */,
-				B91C76FF215498BE004F33FB /* rotatingTests.xctest */,
-				B91C770A215498BE004F33FB /* rotatingUITests.xctest */,
+				B91C76E7215498BA004F33FB /* rotating_liuch.app */,
+				B91C76FF215498BE004F33FB /* rotating_liuchTests.xctest */,
+				B91C770A215498BE004F33FB /* rotating_liuchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B91C76E6215498BA004F33FB /* rotating */ = {
+		B91C76E6215498BA004F33FB /* rotating_liuch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91C7713215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating" */;
+			buildConfigurationList = B91C7713215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuch" */;
 			buildPhases = (
 				B91C76E3215498BA004F33FB /* Sources */,
 				B91C76E4215498BA004F33FB /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = rotating;
+			name = rotating_liuch;
 			productName = rotating;
-			productReference = B91C76E7215498BA004F33FB /* rotating.app */;
+			productReference = B91C76E7215498BA004F33FB /* rotating_liuch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B91C76FE215498BE004F33FB /* rotatingTests */ = {
+		B91C76FE215498BE004F33FB /* rotating_liuchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91C7716215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotatingTests" */;
+			buildConfigurationList = B91C7716215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuchTests" */;
 			buildPhases = (
 				B91C76FB215498BE004F33FB /* Sources */,
 				B91C76FC215498BE004F33FB /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				B91C7701215498BE004F33FB /* PBXTargetDependency */,
 			);
-			name = rotatingTests;
+			name = rotating_liuchTests;
 			productName = rotatingTests;
-			productReference = B91C76FF215498BE004F33FB /* rotatingTests.xctest */;
+			productReference = B91C76FF215498BE004F33FB /* rotating_liuchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B91C7709215498BE004F33FB /* rotatingUITests */ = {
+		B91C7709215498BE004F33FB /* rotating_liuchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B91C7719215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotatingUITests" */;
+			buildConfigurationList = B91C7719215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuchUITests" */;
 			buildPhases = (
 				B91C7706215498BE004F33FB /* Sources */,
 				B91C7707215498BE004F33FB /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				B91C770C215498BE004F33FB /* PBXTargetDependency */,
 			);
-			name = rotatingUITests;
+			name = rotating_liuchUITests;
 			productName = rotatingUITests;
-			productReference = B91C770A215498BE004F33FB /* rotatingUITests.xctest */;
+			productReference = B91C770A215498BE004F33FB /* rotating_liuchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B91C76E2215498BA004F33FB /* Build configuration list for PBXProject "rotating" */;
+			buildConfigurationList = B91C76E2215498BA004F33FB /* Build configuration list for PBXProject "rotating_liuch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B91C76E6215498BA004F33FB /* rotating */,
-				B91C76FE215498BE004F33FB /* rotatingTests */,
-				B91C7709215498BE004F33FB /* rotatingUITests */,
+				B91C76E6215498BA004F33FB /* rotating_liuch */,
+				B91C76FE215498BE004F33FB /* rotating_liuchTests */,
+				B91C7709215498BE004F33FB /* rotating_liuchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		B91C7701215498BE004F33FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91C76E6215498BA004F33FB /* rotating */;
+			target = B91C76E6215498BA004F33FB /* rotating_liuch */;
 			targetProxy = B91C7700215498BE004F33FB /* PBXContainerItemProxy */;
 		};
 		B91C770C215498BE004F33FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B91C76E6215498BA004F33FB /* rotating */;
+			target = B91C76E6215498BA004F33FB /* rotating_liuch */;
 			targetProxy = B91C770B215498BE004F33FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.liuch.rotatingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotating.app/rotating";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotating_liuch.app/rotating_liuch";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.liuch.rotatingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotating.app/rotating";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rotating_liuch.app/rotating_liuch";
 			};
 			name = Release;
 		};
@@ -552,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B91C76E2215498BA004F33FB /* Build configuration list for PBXProject "rotating" */ = {
+		B91C76E2215498BA004F33FB /* Build configuration list for PBXProject "rotating_liuch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91C7711215498BE004F33FB /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91C7713215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating" */ = {
+		B91C7713215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91C7714215498BE004F33FB /* Debug */,
@@ -570,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91C7716215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotatingTests" */ = {
+		B91C7716215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91C7717215498BE004F33FB /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B91C7719215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotatingUITests" */ = {
+		B91C7719215498BE004F33FB /* Build configuration list for PBXNativeTarget "rotating_liuchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B91C771A215498BE004F33FB /* Debug */,

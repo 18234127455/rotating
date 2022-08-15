@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:rotating.xcodeproj">
+      location = "self:/Users/user/Desktop/Rotating_liuch/rotating/rotating_liuch.xcodeproj">
    </FileRef>
 </Workspace>
