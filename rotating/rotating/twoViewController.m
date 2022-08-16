@@ -37,7 +37,6 @@
     self.view.backgroundColor = [UIColor blueColor];
     self.navigationItem.title = @"强制竖屏";
     
-    
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"测试旋转" style:(UIBarButtonItemStylePlain) target:self action:@selector(rightBarButtonItemAction)];
 }
 
